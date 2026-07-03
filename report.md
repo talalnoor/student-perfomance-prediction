@@ -12,4 +12,3 @@ GridSearchCV tuning of Random Forest (27 combinations, 5-fold CV, optimizing F1)
 
 **Key limitation:** the confusion matrix showed the tuned model correctly identified only 6 of 20 actual failing students, reflecting the cost of class imbalance — the model is biased toward predicting the majority "Pass" class. Future work could address this with class-weighting, SMOTE oversampling, or collecting richer behavioral features, since demographic/lifestyle attributes alone provide only moderate predictive power for this outcome.
 
-*(Word count: ~400)*
